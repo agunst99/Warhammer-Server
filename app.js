@@ -16,6 +16,7 @@ app.use(require('./middleware/validate-session'));
 app.use('/api/login', require('./routes/session'));
 app.use('/api/user', require('./routes/user'));
 app.use('/api/army', require('./routes/army'));
+app.use('/api/message', require('./routes/message'));
 
 
 app.listen(3000, function(){

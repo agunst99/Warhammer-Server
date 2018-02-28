@@ -16,5 +16,6 @@ sequelize.authenticate().then(
 );
 var User = sequelize.import('./models/user');
 var army =sequelize.import('./models/army');
+var message =sequelize.import('./models/message');
 
 module.exports = sequelize;
